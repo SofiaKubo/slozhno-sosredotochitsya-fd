@@ -1,5 +1,120 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-color: var(--background-color);
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  block-size: 100vh;
+  min-block-size: 668px;
+  padding-inline: 0 10px;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  inline-size: 25px;
+  block-size: 25px;
+}
+
+.decorated-zone::before {
+  top: 0;
+  right: 0;
+  background-image: url("../images/Rectangle\ 77.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header__rec-label {
+  position: absolute;
+  top: 20px;
+  right: 48px;
+  color: var(--accent-color, #ff0070);
+  font-family: var(--main-font, "IBM Plex Mono", monospace);
+  font-weight: 400;
+  font-size: var(--main-font-size, 18px);
+  line-height: 25px;
+}
+
+.header__rec-label::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  margin-inline-start: 5px;
+  margin-block-start: -4.5px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px var(--accent-color, #ff0070);
+  background-color: var(--accent-color, #ff0070);
+  inset-block-start: 50%;
+  inset-inline-start: 100%;
+}
+
+.header__theme-menu {
+  align-self: center;
+  justify-self: end;
+}
+
+.header__theme-menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  background: transparent;
+  border: none;
+  font-family: var(--main-font, "IBM Plex Mono", monospace);
+  font-size: var(--main-font-size, 18px);
+  color: var(--accent-color, #ff0070);
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+}
+
+.header__title {
+  color: #db00ff;
+  font-family: var(--main-font, "IBM Plex Mono", monospace);
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 0.83;
+  text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+}
+
+.header__description {
+  justify-self: center;
+  align-self: center;
+  font-family: var(--main-font, "IBM Plex Mono", monospace);
+  font-weight: 700;
+  font-size: var(--main-font-size, 18px);
+  line-height: 23.4px;
+  max-width: 355px;
+}
+
+.header__description span {
+  display: block;
+}
+
+.title-decor {
+  background-color: var(--accent-color, #ff0070);
+  color: #000028;
+  display: inline-block;
+}
+
+.decorated-zone::after {
+  bottom: 10px;
+  left: 10px;
+  background-image: url("../images/Rectangle\ 79.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
