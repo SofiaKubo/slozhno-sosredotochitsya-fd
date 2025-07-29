@@ -38,7 +38,7 @@
   right: 38px;
   color: var(--accent-color, #ff0070);
   font-family: var(--main-font, "IBM Plex Mono", monospace);
-  font-weight: 400;
+  font-weight: var(--font-weight-regular, 400);
   font-size: var(--main-font-size, 18px);
   line-height: 25px;
 }
@@ -86,7 +86,7 @@
 .header__title {
   color: #db00ff;
   font-family: var(--main-font, "IBM Plex Mono", monospace);
-  font-weight: 700;
+  font-weight: var(--font-weight-bold, 700);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.83;
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
@@ -99,7 +99,7 @@
   font-family: var(--main-font, "IBM Plex Mono", monospace);
   font-weight: 700;
   font-size: var(--main-font-size, 18px);
-  line-height: 23.4px;
+  line-height: var(--main-line-height, 23.4px);
 }
 
 .header__description span {
@@ -123,26 +123,72 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
   padding-inline: 10px;
+  padding-block-start: 40px;
+}
+
+.content-section,
+.gallery-section__title {
+  font-family: var(--main-font, "IBM Plex Mono", monospace);
+  font-size: var(--main-font-size, 18px);
+  line-height: var(--main-line-height, 23.4px);
 }
 
 .content-section__title {
+  margin-bottom: 20px;
   color: var(--accent-color, #ff0070);
-  font-family: var(--main-font, "IBM Plex Mono", monospace);
-  font-weight: 700;
-  font-size: var(--main-font-size, 18px);
-  line-height: 23.4px;
+  font-weight: var(--font-weight-bold, 700);
 }
 
-.gallery {
+.content-section__card {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.gallery__image {
+.content-section__card-title,
+.gallery-section__title {
+  font-weight: var(--font-weight-bold, 700);
+}
+
+.content-section__card-text {
+  margin-block-end: 0;
+  color: #f1b2ce;
+  font-weight: var(--font-weight-regular, 400);
+}
+
+.content-section__card-text:last-child {
+  margin-block-end: 20px;
+}
+
+.text-link {
+  outline: none;
+  text-decoration: none;
+}
+
+.highlight {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+}
+
+.content-section_thin-titles .content-section__card-title {
+  font-weight: var(--font-weight-regular, 400);
+}
+
+.content-section_thin-titles .content-section__card-title_bold {
+  margin-block-end: 20px;
+  font-weight: var(--font-weight-bold, 700);
+}
+
+.gallery-section,
+.gallery-section__gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery-section__image {
+  display: block;
   width: 100%;
   height: auto;
-  display: block;
 }
