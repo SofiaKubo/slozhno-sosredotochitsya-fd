@@ -1,4 +1,5 @@
 .page {
+  font-family: var(--main-font, "IBM Plex Mono", monospace);
   background-color: var(--background-color);
   background-image: var(--background-image);
   background-repeat: no-repeat;
@@ -37,7 +38,6 @@
   top: 10px;
   right: 38px;
   color: var(--accent-color, #ff0070);
-  font-family: var(--main-font, "IBM Plex Mono", monospace);
   font-weight: var(--font-weight-regular, 400);
   font-size: var(--main-font-size, 18px);
   line-height: 25px;
@@ -76,16 +76,15 @@
   border: none;
   padding: 0;
   color: var(--accent-color, #ff0070);
-  font-family: var(--main-font, "IBM Plex Mono", monospace);
   font-size: var(--main-font-size, 18px);
   text-align: left;
   background: transparent;
   cursor: pointer;
 }
 
-.header__title {
+.header__title,
+.footer__title {
   color: #db00ff;
-  font-family: var(--main-font, "IBM Plex Mono", monospace);
   font-weight: var(--font-weight-bold, 700);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.83;
@@ -96,7 +95,7 @@
   justify-self: center;
   align-self: center;
   max-width: 355px;
-  font-family: var(--main-font, "IBM Plex Mono", monospace);
+  margin-block-start: -11px;
   font-weight: 700;
   font-size: var(--main-font-size, 18px);
   line-height: var(--main-line-height, 23.4px);
@@ -123,14 +122,13 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: var(--gap-large, 30px);
   padding-inline: 10px;
   padding-block-start: 40px;
 }
 
 .content-section,
 .gallery-section__title {
-  font-family: var(--main-font, "IBM Plex Mono", monospace);
   font-size: var(--main-font-size, 18px);
   line-height: var(--main-line-height, 23.4px);
 }
@@ -144,7 +142,7 @@
 .content-section__card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--gap-small, 10px);
 }
 
 .content-section__card-title,
@@ -180,15 +178,37 @@
   font-weight: var(--font-weight-bold, 700);
 }
 
+.gallery-section {
+  margin-block-end: 9px;
+}
+
 .gallery-section,
 .gallery-section__gallery {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--gap-small, 10px);
 }
 
 .gallery-section__image {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.footer {
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding-inline: 4px 10px;
+  text-align: center;
+  block-size: 100vh;
+  min-block-size: 668px;
+}
+
+footer.decorated-zone::before {
+  right: 0.5px;
+}
+
+footer.decorated-zone::after {
+  left: 1px;
 }
