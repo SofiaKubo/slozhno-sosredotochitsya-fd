@@ -8,4 +8,7 @@
   --font-weight-regular: 400;
   --gap-small: 10px;
   --gap-large: 30px;
+  --text-color: #f1b2ce;
+  --border-hover-color: #ff007066;
+  --title-color: #db00ff;
 }
