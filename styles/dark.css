@@ -6,7 +6,12 @@
   --border-color: var(--accent-color, #ff0070);
   --text-shadow-color: var(--accent-color, #ff0070);
   --border-hover-color: #ff007066;
-  --title-color: #db00ff;
+  --heading-color: #db00ff;
+  --section-title-color: #ff0070;
+}
+
+.theme-light .header__rec-label {
+  display: block;
 }
 
 .theme-dark .header__theme-menu-button_type_dark {
@@ -15,4 +20,12 @@
 
 .theme-dark .header__theme-menu-button_type_light {
   border: none;
+}
+
+.theme-dark .decorated-zone::before {
+  background-image: url("../images/Rectangle\ 77.png");
+}
+
+.theme-dark .decorated-zone::after {
+  background-image: url("../images/Rectangle\ 79.png");
 }
