@@ -28,7 +28,7 @@
 .decorated-zone::before {
   top: 10px;
   right: 10px;
-  background-image: url("../images/Rectangle\ 77.png");
+  background-image: url("../images/Rectangle77.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -84,7 +84,8 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid currentColor;
+  border: 1px solid;
+  border-color: var(--border-color, #ff0070);
   pointer-events: none;
 }
 
@@ -149,7 +150,7 @@
 .decorated-zone::after {
   bottom: 10px;
   left: 10px;
-  background-image: url("../images/Rectangle\ 79.png");
+  background-image: url("../images/Rectangle79.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
