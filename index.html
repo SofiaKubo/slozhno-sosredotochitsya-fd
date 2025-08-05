@@ -19,33 +19,35 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <span class="header__rec-label" aria-hidden="true">REC</span>
-      <nav class="header__theme-menu">
-        <ul class="header__theme-menu-list">
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_type_light"
-            >
-              день
-            </button>
-          </li>
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-              disabled
-            >
-              авто
-            </button>
-          </li>
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_type_dark"
-            >
-              неон
-            </button>
-          </li>
-        </ul>
-      </nav>
+      <div class="header__theme-row">
+        <span class="header__rec-label" aria-hidden="true">REC</span>
+        <nav class="header__theme-menu">
+          <ul class="header__theme-menu-list">
+            <li class="header__theme-menu-item">
+              <button
+                class="header__theme-menu-button header__theme-menu-button_type_light"
+              >
+                день
+              </button>
+            </li>
+            <li class="header__theme-menu-item">
+              <button
+                class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+                disabled
+              >
+                авто
+              </button>
+            </li>
+            <li class="header__theme-menu-item">
+              <button
+                class="header__theme-menu-button header__theme-menu-button_type_dark"
+              >
+                неон
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <h1 class="header__title">no <br />focus</h1>
       <p class="header__description title-decor">
         <span>Что делать, когда не можешь делать ничего</span>
@@ -98,7 +100,9 @@
         <h2 class="content-section__title">
           Что снижает концентрацию внимания?
         </h2>
-        <div class="content-section__content">
+        <div
+          class="content-section__content content-section_type_three-columns"
+        >
           <article class="content-section__card">
             <h3 class="content-section__card-title title-decor">
               Многозадачность
