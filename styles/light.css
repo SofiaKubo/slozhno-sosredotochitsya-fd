@@ -23,15 +23,15 @@
 }
 
 .theme-light .decorated-zone::before {
-  background-image: url("../images/Rectangle_light\ 77.png");
+  background-image: url("../images/Rectangle_light77.png");
 }
 
 .theme-light .decorated-zone::after {
-  background-image: url("../images/Rectangle_light\ 79.png");
+  background-image: url("../images/Rectangle_light79.png");
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  :root.theme-auto {
     --background-image: url("../images/cover-image-light.png");
     --background-color: #fff1f7;
     --text-color: #353430;
@@ -41,5 +41,33 @@
     --border-hover-color: #32312d66;
     --heading-color: #ffc2e6;
     --section-title-color: #353430;
+  }
+
+  .theme-auto .header__theme-menu-button_type_light {
+    border-color: var(--border-color, #353430);
+  }
+
+  .theme-auto .header__theme-menu-button_type_dark {
+    border: none;
+  }
+
+  .theme-auto .header__rec-label {
+    display: none;
+  }
+
+  .theme-auto .decorated-zone::before {
+    background-image: url("../images/Rectangle_light77.png");
+  }
+
+  .theme-auto .decorated-zone::after {
+    background-image: url("../images/Rectangle_light79.png");
+  }
+
+  .theme-auto .header__theme-menu-button {
+    border: 1px solid transparent;
+  }
+
+  .theme-auto .header__theme-menu-button_active {
+    border: 1px solid var(--border-color, #353430);
   }
 }

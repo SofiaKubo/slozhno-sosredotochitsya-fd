@@ -10,7 +10,7 @@
   --section-title-color: #ff0070;
 }
 
-.theme-light .header__rec-label {
+.theme-dark .header__rec-label {
   display: block;
 }
 
@@ -23,9 +23,9 @@
 }
 
 .theme-dark .decorated-zone::before {
-  background-image: url("../images/Rectangle\ 77.png");
+  background-image: url("../images/Rectangle77.png");
 }
 
 .theme-dark .decorated-zone::after {
-  background-image: url("../images/Rectangle\ 79.png");
+  background-image: url("../images/Rectangle79.png");
 }
