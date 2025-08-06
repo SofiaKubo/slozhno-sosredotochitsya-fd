@@ -99,10 +99,6 @@
   border: none;
 }
 
-.header__theme-menu-button {
-  border: 1px solid transparent;
-}
-
 .theme-dark .header__theme-menu-button_type_dark {
   border-color: var(--border-color, #ff0070);
 }
