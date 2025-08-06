@@ -14,14 +14,6 @@
   display: block;
 }
 
-.theme-dark .header__theme-menu-button_type_dark {
-  border-color: var(--border-color, #ff0070);
-}
-
-.theme-dark .header__theme-menu-button_type_light {
-  border: none;
-}
-
 .theme-dark .decorated-zone::before {
   background-image: url("../images/Rectangle77.png");
 }
