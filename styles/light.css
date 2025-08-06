@@ -10,14 +10,6 @@
   --section-title-color: #353430;
 }
 
-.theme-light .header__theme-menu-button_type_light {
-  border-color: var(--border-color, #353430);
-}
-
-.theme-light .header__theme-menu-button_type_dark {
-  border: none;
-}
-
 .theme-light .header__rec-label {
   display: none;
 }
@@ -43,14 +35,6 @@
     --section-title-color: #353430;
   }
 
-  .header__theme-menu-button_type_light {
-    border-color: var(--border-color, #353430);
-  }
-
-  .header__theme-menu-button_type_dark {
-    border: none;
-  }
-
   .header__rec-label {
     display: none;
   }
@@ -61,13 +45,5 @@
 
   .decorated-zone::after {
     background-image: url("../images/Rectangle_light79.png");
-  }
-
-  .header__theme-menu-button {
-    border: 1px solid transparent;
-  }
-
-  .header__theme-menu-button_active {
-    border: 1px solid var(--border-color, #353430);
   }
 }

@@ -87,6 +87,30 @@
   cursor: pointer;
 }
 
+.theme-light .header__theme-menu-button_type_dark {
+  border: none;
+}
+
+.header__theme-menu-button_type_light {
+  border-color: var(--border-color, #353430);
+}
+
+.header__theme-menu-button_type_dark {
+  border: none;
+}
+
+.header__theme-menu-button {
+  border: 1px solid transparent;
+}
+
+.theme-dark .header__theme-menu-button_type_dark {
+  border-color: var(--border-color, #ff0070);
+}
+
+.theme-dark .header__theme-menu-button_type_light {
+  border: none;
+}
+
 .header__theme-menu-button_active {
   border: 1px solid;
   border-color: var(--border-color, #ff0070);
