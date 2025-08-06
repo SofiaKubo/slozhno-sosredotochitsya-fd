@@ -31,7 +31,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root.theme-auto {
+  :root {
     --background-image: url("../images/cover-image-light.png");
     --background-color: #fff1f7;
     --text-color: #353430;
@@ -43,31 +43,31 @@
     --section-title-color: #353430;
   }
 
-  .theme-auto .header__theme-menu-button_type_light {
+  .header__theme-menu-button_type_light {
     border-color: var(--border-color, #353430);
   }
 
-  .theme-auto .header__theme-menu-button_type_dark {
+  .header__theme-menu-button_type_dark {
     border: none;
   }
 
-  .theme-auto .header__rec-label {
+  .header__rec-label {
     display: none;
   }
 
-  .theme-auto .decorated-zone::before {
+  .decorated-zone::before {
     background-image: url("../images/Rectangle_light77.png");
   }
 
-  .theme-auto .decorated-zone::after {
+  .decorated-zone::after {
     background-image: url("../images/Rectangle_light79.png");
   }
 
-  .theme-auto .header__theme-menu-button {
+  .header__theme-menu-button {
     border: 1px solid transparent;
   }
 
-  .theme-auto .header__theme-menu-button_active {
+  .header__theme-menu-button_active {
     border: 1px solid var(--border-color, #353430);
   }
 }
