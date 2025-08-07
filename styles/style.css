@@ -367,7 +367,9 @@ footer.decorated-zone::after {
   }
 }
 
-@media (width = 768px) {
+/* Уточнение max-width для промежуточных разрешений, 
+   так как clamp() выдаёт некорректную ширину на 768px */
+@media (min-width: 768px) and (max-width: 1023px) {
   .header__description {
     max-width: 364px;
   }
