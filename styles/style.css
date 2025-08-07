@@ -80,7 +80,7 @@
   border: 1px solid transparent;
   padding-inline: 13px;
   padding-block: 1.5px;
-  color: var(--accent-color, #ff0070);
+  color: var(--button-color, #ff0070);
   font-size: var(--main-font-size, 18px);
   text-align: left;
   background: transparent;
@@ -167,7 +167,7 @@
 
 .title-decor {
   display: inline-block;
-  color: #000028;
+  color: var(--title-decor-color, #000028);
   background-color: var(--accent-color, #ff0070);
 }
 
@@ -272,6 +272,11 @@
   min-block-size: 668px;
 }
 
+.footer__title {
+  margin-block-start: 65px;
+  margin-inline-end: -6px;
+}
+
 footer.decorated-zone::before {
   right: 0.5px;
 }
@@ -363,6 +368,8 @@ footer.decorated-zone::after {
   }
 
   .footer__title {
+    margin-block-start: 120px;
+    margin-inline-end: -3px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
@@ -409,7 +416,6 @@ footer.decorated-zone::after {
   }
 
   .footer__title {
-    margin-block-start: 120px;
     margin-inline-end: -7px;
   }
 }

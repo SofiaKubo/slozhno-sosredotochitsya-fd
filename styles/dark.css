@@ -3,7 +3,9 @@
   --background-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
+  --title-decor-color: #000028;
   --border-color: var(--accent-color, #ff0070);
+  --button-color: var(--accent-color, #ff0070);
   --text-shadow-color: var(--accent-color, #ff0070);
   --border-hover-color: #ff007066;
   --heading-color: #db00ff;

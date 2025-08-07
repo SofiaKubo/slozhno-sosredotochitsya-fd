@@ -3,7 +3,9 @@
   --background-color: #fff1f7;
   --text-color: #353430;
   --accent-color: #ff8dcb;
+  --title-decor-color: var(--text-color, #353430);
   --border-color: #353430;
+  --button-color: #353430;
   --text-shadow-color: var(--accent-color, #ff8dcb);
   --border-hover-color: #32312d66;
   --heading-color: #ffc2e6;
@@ -28,7 +30,9 @@
     --background-color: #fff1f7;
     --text-color: #353430;
     --accent-color: #ff8dcb;
+    --title-decor-color: var(--text-color, #353430);
     --border-color: #353430;
+    --button-color: #353430;
     --text-shadow-color: var(--accent-color, #ff8dcb);
     --border-hover-color: #32312d66;
     --heading-color: #ffc2e6;
