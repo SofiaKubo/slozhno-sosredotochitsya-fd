@@ -328,7 +328,7 @@ footer.decorated-zone::after {
     padding-block-start: 60px;
   }
 
-  .content-section_type_two-columns {
+  .content-section_layout-split {
     display: grid;
     grid-template-columns: 236px minmax(400px, 472px);
     gap: var(--gap-medium, 20px);
@@ -410,7 +410,7 @@ footer.decorated-zone::after {
     text-align: left;
   }
 
-  .content-section_type_two-columns {
+  .content-section_layout-split {
     display: grid;
     grid-template-columns: 315px minmax(648px, 650px);
     gap: var(--gap-medium, 20px);
@@ -420,7 +420,7 @@ footer.decorated-zone::after {
     max-inline-size: 315px;
   }
 
-  .content-section_type_three-columns {
+  .content-section_layout-multicolumn {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: var(--gap-medium, 20px);

@@ -57,8 +57,8 @@
         >
       </p>
     </header>
-    <main class="main">
-      <section class="content-section content-section_type_two-columns">
+    <main class="main main_content">
+      <section class="content-section content-section_layout-split">
         <h2 class="content-section__title">
           Почему сосредоточиться так сложно
         </h2>
@@ -101,7 +101,7 @@
           Что снижает концентрацию внимания?
         </h2>
         <div
-          class="content-section__content content-section_type_three-columns"
+          class="content-section__content content-section_layout-multicolumn"
         >
           <article class="content-section__card">
             <h3 class="content-section__card-title title-decor">
@@ -142,131 +142,148 @@
         </div>
       </section>
       <section
-        class="content-section content-section_thin-titles content-section_type_two-columns"
+        class="content-section content-section_thin-titles content-section_layout-split"
       >
         <h2 class="content-section__title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <div class="content-section__content">
+        <article class="content-section__content">
           <h3
             class="content-section__card-title content-section__card-title_bold title-decor"
           >
             5 простых (на самом деле не очень) советов
           </h3>
-          <article class="content-section__card">
-            <h3 class="content-section__card-title title-decor">
-              Представьте небо и облака
-            </h3>
-            <p class="content-section__card-text">
-              Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
-              успокоиться. Ведь часто именно тревожные мысли о сложных задачах
-              как раз и мешают эти сложные задачи делать. В такие моменты можно
-              закрыть глаза и представить, что чистое небо — это вы, а облака —
-              тревожные мысли. И сколько бы их ни было — ясное небо всегда будет
-              где-то там, за тучами, и никуда не денется. Это упражнение поможет
-              вернуться в настоящий момент, а не волноваться о потенциальных
-              проблемах из будущего.
-            </p>
-          </article>
-          <article class="content-section__card">
-            <h3 class="content-section__card-title title-decor">
-              Включите музыку
-            </h3>
-            <p class="content-section__card-text">
-              Но не любую, и не любимую. Любимая может быть связана с сильными
-              положительными эмоциями, которые тоже очень сильно отвлекают.
-              Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
-              попробовать включить плейлист с «белым шумом» или нейромузыкой.
-            </p>
-          </article>
-          <article class="content-section__card">
-            <h3 class="content-section__card-title title-decor">
-              Прогуляйтесь
-            </h3>
-            <p class="content-section__card-text">
-              Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
-              <a
-                href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
-                class="text-link"
-                ><span class="highlight">показал</span></a
-              >, что созерцание природы повышает концентрацию, в то время как
-              после просмотра городских пейзажей она наоборот понижается. Можно
-              совместить прогулку с физическими упражнениями или бегом — так в
-              мозг поступит ещё больше кислорода и он будет лучше работать. Но и
-              простая двадцатиминутная прогулка — тоже отличный вариант.
-            </p>
-          </article>
-          <article class="content-section__card">
-            <h3 class="content-section__card-title title-decor">
-              Хорошо ешьте
-            </h3>
-            <p class="content-section__card-text">
-              Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
-              которые препятствуют резким скачкам сахара в крови. Например, с
-              высоким содержанием клетчатки: овощи, ягоды, бобовые (нут,
-              чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
-            </p>
-          </article>
-          <article class="content-section__card">
-            <h3 class="content-section__card-title title-decor">Читайте</h3>
-            <p class="content-section__card-text">
-              Настоящие бумажные книги. Это правда помогает с концентрацией:
-              чтобы прочитать пост в соцсети, достаточно нескольких минут или
-              даже секунд. А вот интересная книга способна затянуть и на
-              несколько часов и круто тренирует направленное внимание.
-            </p>
-          </article>
-        </div>
+          <ul class="advice-list">
+            <li class="advice-list__item">
+              <article class="content-section__card">
+                <h4 class="content-section__card-title title-decor">
+                  Представьте небо и облака
+                </h4>
+                <p class="content-section__card-text">
+                  Или листья в ручье. Тут дело в лёгкой медитации, которая
+                  помогает успокоиться. Ведь часто именно тревожные мысли о
+                  сложных задачах как раз и мешают эти сложные задачи делать. В
+                  такие моменты можно закрыть глаза и представить, что чистое
+                  небо — это вы, а облака — тревожные мысли. И сколько бы их ни
+                  было — ясное небо всегда будет где-то там, за тучами, и никуда
+                  не денется. Это упражнение поможет вернуться в настоящий
+                  момент, а не волноваться о потенциальных проблемах из
+                  будущего.
+                </p>
+              </article>
+            </li>
+            <li class="advice-list__item">
+              <article class="content-section__card">
+                <h4 class="content-section__card-title title-decor">
+                  Включите музыку
+                </h4>
+                <p class="content-section__card-text">
+                  Но не любую, и не любимую. Любимая может быть связана с
+                  сильными положительными эмоциями, которые тоже очень сильно
+                  отвлекают. Подойдёт тихая, спокойная, умеренно-ритмичная.
+                  Можно вообще попробовать включить плейлист с «белым шумом» или
+                  нейромузыкой.
+                </p>
+              </article>
+            </li>
+            <li class="advice-list__item">
+              <article class="content-section__card">
+                <h4 class="content-section__card-title title-decor">
+                  Прогуляйтесь
+                </h4>
+                <p class="content-section__card-text">
+                  Или даже пробегитесь. Лучше найти парк или лес: один
+                  эксперимент
+                  <a
+                    href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
+                    class="text-link"
+                    ><span class="highlight">показал</span></a
+                  >, что созерцание природы повышает концентрацию, в то время
+                  как после просмотра городских пейзажей она наоборот
+                  понижается. Можно совместить прогулку с физическими
+                  упражнениями или бегом — так в мозг поступит ещё больше
+                  кислорода и он будет лучше работать. Но и простая
+                  двадцатиминутная прогулка — тоже отличный вариант.
+                </p>
+              </article>
+            </li>
+            <li class="advice-list__item">
+              <article class="content-section__card">
+                <h4 class="content-section__card-title title-decor">
+                  Хорошо ешьте
+                </h4>
+                <p class="content-section__card-text">
+                  Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
+                  которые препятствуют резким скачкам сахара в крови. Например,
+                  с высоким содержанием клетчатки: овощи, ягоды, бобовые (нут,
+                  чечевица, фасоль), коричневый рис, хлеб из цельнозерновой
+                  пшеницы.
+                </p>
+              </article>
+            </li>
+            <li class="advice-list__item">
+              <article class="content-section__card">
+                <h4 class="content-section__card-title title-decor">Читайте</h4>
+                <p class="content-section__card-text">
+                  Настоящие бумажные книги. Это правда помогает с концентрацией:
+                  чтобы прочитать пост в соцсети, достаточно нескольких минут
+                  или даже секунд. А вот интересная книга способна затянуть и на
+                  несколько часов и круто тренирует направленное внимание.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </article>
       </section>
       <section class="gallery-section">
         <h3 class="gallery-section__title title-decor">А можно в картинках?</h3>
         <div class="gallery-section__gallery">
-          <figure class="gallery__item">
+          <div class="gallery__item">
             <img
               src="./images/sunset.png"
               alt="Закат в горах"
               loading="lazy"
               class="gallery-section__image"
             />
-          </figure>
-          <figure class="gallery__item">
+          </div>
+          <div class="gallery__item">
             <img
               src="./images/ice-cream.png"
               alt="Мороженое с вишней"
               loading="lazy"
               class="gallery-section__image"
             />
-          </figure>
-          <figure class="gallery__item">
+          </div>
+          <div class="gallery__item">
             <img
               src="./images/tape.png"
               alt="Кассета и плейлист"
               loading="lazy"
               class="gallery-section__image"
             />
-          </figure>
-          <figure class="gallery__item">
+          </div>
+          <div class="gallery__item">
             <img
               src="./images/books.png"
               alt="Книги, разложенные стопкой"
               loading="lazy"
               class="gallery-section__image"
             />
-          </figure>
-          <figure class="gallery__item">
+          </div>
+          <div class="gallery__item">
             <img
               src="./images/street.png"
               alt="Улица на закате"
               loading="lazy"
               class="gallery-section__image"
             />
-          </figure>
+          </div>
         </div>
       </section>
-      <footer class="footer decorated-zone">
-        <p class="footer__title">focus</p>
-      </footer>
     </main>
+    <footer class="footer decorated-zone">
+      <p class="footer__title">focus</p>
+    </footer>
   </body>
 </html>
