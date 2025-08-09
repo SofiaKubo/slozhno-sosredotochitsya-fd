@@ -298,10 +298,6 @@
     max-inline-size: none;
   }
 
-  .header__title br {
-    display: none;
-  }
-
   .header__description {
     justify-self: end;
     margin-block-start: 0;
@@ -341,10 +337,6 @@
 
   .content-section__title {
     max-inline-size: 236px;
-  }
-
-  .gallery-section {
-    margin-block-end: 0;
   }
 
   .gallery-section__gallery {
