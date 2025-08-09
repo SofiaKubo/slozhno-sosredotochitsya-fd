@@ -10,6 +10,7 @@
   --border-hover-color: #ff007066;
   --heading-color: #db00ff;
   --section-title-color: #ff0070;
+  --corner-color: var(--accent-color, #ff0070);
 }
 
 .theme-dark .header__theme-menu-button_type_dark {
@@ -22,12 +23,4 @@
 
 .theme-dark .header__rec-label {
   display: block;
-}
-
-.theme-dark .decorated-zone::before {
-  background-image: url("../images/Rectangle77.png");
-}
-
-.theme-dark .decorated-zone::after {
-  background-image: url("../images/Rectangle79.png");
 }
