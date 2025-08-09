@@ -12,6 +12,14 @@
   --section-title-color: #ff0070;
 }
 
+.theme-dark .header__theme-menu-button_type_dark {
+  border-color: var(--border-color, #ff0070);
+}
+
+.theme-dark .header__theme-menu-button_type_light {
+  border: none;
+}
+
 .theme-dark .header__rec-label {
   display: block;
 }
