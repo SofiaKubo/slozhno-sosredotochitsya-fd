@@ -18,7 +18,7 @@
 }
 
 .theme-dark .header__theme-menu-button_type_light {
-  border: none;
+  border-color: transparent;
 }
 
 .theme-dark .header__rec-label {
