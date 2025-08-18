@@ -4,33 +4,33 @@ This is an adaptive, theme-switchable landing page built as part of a front-end 
 
 ## Features
 
-- **Responsive design** – Fully adapts to mobile, tablet, and desktop screen sizes.
+- **Responsive design** – fully adapts to mobile, tablet, and desktop screen sizes.
 
-- **Theme switching** – Light, dark, and automatic modes with smooth transitions.
+- **Theme switching** – light, dark, and automatic modes with smooth transitions.
 
-- **Pixel-perfect layout** – Developed according to provided Figma mockups.
+- **Pixel-perfect layout** – developed according to provided Figma mockups.
 
-- **Semantic HTML5** – Accessible and SEO-friendly markup.
+- **Semantic HTML5** – accessible and SEO-friendly markup.
 
-- **CSS Grid & Flexbox** – Modern layout techniques for flexible and maintainable structure.
+- **CSS Grid & Flexbox** – modern layout techniques for flexible and maintainable structure.
 
-- **Custom properties (CSS variables)** – Centralized theme control and easy styling updates.
+- **Custom properties (CSS variables)** – centralized theme control and easy styling updates.
 
 ## Technologies Used
 
-- HTML5 – Semantic structure and accessible markup.
+- HTML5 – semantic structure and accessible markup.
 
 - CSS3:
 
-     - Custom properties for theme management.
+     - custom properties for theme management.
 
-     - Flexbox and Grid for adaptive layouts.
+     - flexbox and Grid for adaptive layouts.
 
-     - Media queries for responsive breakpoints.
+     - media queries for responsive breakpoints.
 
      - CSS transitions for smooth visual effects.
 
-- JavaScript (Vanilla) – Theme switching logic with localStorage support.
+- JavaScript (Vanilla) – theme switching logic with localStorage support.
 
 - BEM methodology – Block-Element-Modifier naming convention for scalable and maintainable CSS.
 
