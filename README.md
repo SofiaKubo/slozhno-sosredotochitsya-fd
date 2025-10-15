@@ -1,6 +1,18 @@
 # Slozhno Sosredotochitsya
 
-This is an adaptive, theme-switchable landing page built as part of a front-end development learning project. The design focuses on accessibility, responsive layouts, and interactive theme control.
+This project, "Slozhno Sosredotochitsya" (Russian for "Hard to Concentrate"), is a web-based application developed primarily using HTML and CSS. 
+
+
+## How It Works
+
+On load, the script checks localStorage for a saved theme.
+
+The user can switch between themes using the theme menu buttons.
+
+In auto mode, the page adapts to the system’s preferred color scheme (prefers-color-scheme).
+
+Styles are organized by theme and by layout component using BEM conventions.
+
 
 ## Features
 
@@ -34,7 +46,8 @@ This is an adaptive, theme-switchable landing page built as part of a front-end 
 
 - BEM methodology – Block-Element-Modifier naming convention for scalable and maintainable CSS.
 
-## File Structure
+
+## Project Structure
 
 ```
 .
@@ -49,12 +62,26 @@ This is an adaptive, theme-switchable landing page built as part of a front-end 
 └── images/             # Project images and icons
 ```
 
-## How It Works
+## Getting Started
 
-On load, the script checks localStorage for a saved theme.
+To run the project locally:
 
-The user can switch between themes using the theme menu buttons.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SofiaKubo/slozhno-sosredotochitsya-fd.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd slozhno-sosredotochitsya-fd
+   ```
+3. Open `index.html` in your preferred web browser.
 
-In auto mode, the page adapts to the system’s preferred color scheme (prefers-color-scheme).
+Or try the [GitHub Pages demo](https://sofiakubo.github.io/slozhno-sosredotochitsya-fd/).
 
-Styles are organized by theme and by layout component using BEM conventions.
+## License
+
+This project currently does not specify a license.
+
+## Acknowledgements
+
+- Template: [yandex-praktikum/slozhno-sosredotochitsya-fd](https://github.com/yandex-praktikum/slozhno-sosredotochitsya-fd)
